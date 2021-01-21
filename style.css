@@ -1,11 +1,81 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  margin: 2em;
+  margin: 5px;
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+  text-align: right;
+  font-family: 'Rock Salt', cursive;
+  font-size: 1.1rem;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #800080;
+}
+
+thead {
+  background-image: url(./assets/leopardskin.jpg);
+  font-family: 'Rock Salt', cursive;
+  color: #fff;
+  
+}
+
+thead th {
+  border: 2px solid #800080;
+  padding: 10px;
+}
+
+tfoot td {
+  border: 2px solid #800080;
+  padding: 10px;
+}
+
+.band {
+  width: 25%;
+}
+
+.song {
+  width: 30%;
+}
+
+.total-albums {
+  text-align: right;
+  padding-right: 5%;
+}
+
+.total-albums-number {
+  text-align: left;
+  padding-left: 5%;
+}
+
+th, td {
+  text-align: center;
+}
+
+tbody {
+  background-image: url(./assets/noise.png) linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+  font-family: 'Lato', sans-serif;
+}
+
+tbody tr:nth-child(odd){
+  background-color: #ff33cc;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e495e4;
+}
+
+tbody tr {
+  height: 50px;
+  border: 1px solid #800080;
+}
+
+tfoot {
+  background-image: url(./assets/leopardskin.jpg);
+  font-family: 'Rock Salt', cursive;
+  color: #fff;
 }
