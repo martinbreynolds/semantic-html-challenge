@@ -1,110 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Hello!</title>
+    <title>HTML / CSS Table Challenge!</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <!-- import the webpage's stylesheet -->
+        <!-- import the Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Rock+Salt&display=swap" rel="stylesheet">
+    
+       <!-- import the webpage's stylesheet --> 
     <link rel="stylesheet" href="./style.css">
 
   </head>  
   <body>
-    <!--repalce this h1 and p content with your own html table -->
+    <main>
+      <header>
+        <!--Title and description-->
+        <h1>Semantic HTML Challenge</h1>
+        <p>My submission for the Coders Guild JAMstack Semantics and Acessibility challenge.</p>
+
+        <p>Source Code can be found <a href="https://github.com/martinbreynolds/semantic-html-challenge">here</a>. </p>
+        </header>
+    
+      <!-- Start of Table-->
     <table>
+      <!--Table Headers-->
       <thead>
         <th class="band">Band</th>
         <th class="year">Year Formed</th>
         <th class="albums">No of Albums</th>
         <th class="song">Most Famous Song</th>
       </thead>
-
+      <!--Table Body-->
       <tbody>
       <tr>
-        <td>Buzzcocks
-        </td>
-        <td>1976
-        </td>
-        <td>9
-        </td>
-        <td>Ever fallen in love (with someone you shouldnt've)
-        </td>
+        <td>Buzzcocks</td>
+        <td>1976</td>
+        <td>9</td>
+        <td>Ever fallen in love (with someone you shouldnt've)</td>
       </tr>
       <tr>
-        <td>The Clash
-        </td>
-        <td>1976
-        </td>
-        <td>10
-        </td>
-        <td>London Calling
-        </td>
+        <td>The Clash</td>
+        <td>1976</td>
+        <td>10</td>
+        <td>London Calling</td>
       </tr>
       <tr>
-        <td>The Damned
-        </td>
-        <td>1976
-        </td>
-        <td>10
-        </td>
-        <td>Smash it Up
-        </td>
+        <td>The Damned</td>
+        <td>1976</td>
+        <td>10</td>
+        <td>Smash it Up</td>
       </tr>
       <tr>
-        <td>Sex Pistols
-        </td>
-        <td>1975
-        </td>
-        <td>1
-        </td>
-        <td>Anarchy in the UK
-        </td>
+        <td>Sex Pistols</td>
+        <td>1975</td>
+        <td>1</td>
+        <td>Anarchy in the UK</td>
       </tr>
       <tr>
-        <td>Sham 69
-        </td>
-        <td>1976
-        </td>
-        <td>13
-        </td>
-        <td>If the Kids Are United
-        </td>
+        <td>Sham 69</td>
+        <td>1976</td>
+        <td>13</td>
+        <td>If the Kids Are United</td>
       </tr>
       <tr>
-        <td>Siouxsie and the Banshees
-        </td>
-        <td>1976
-        </td>
-        <td>11
-        </td>
-        <td>Hong Kong Garden
-        </td>
+        <td>Siouxsie and the Banshees</td>
+        <td>1976</td>
+        <td>11</td>
+        <td>Hong Kong Garden</td>
       </tr>
       <tr>
-        <td>Stiff Little Fingers
-        </td>
-        <td>1977
-        </td>
-        <td>10
-        </td>
-        <td>Suspect Device
-        </td>
+        <td>Stiff Little Fingers</td>
+        <td>1977</td>
+        <td>10</td>
+        <td>Suspect Device</td>
       </tr>
       <tr>
-        <td>The Stranglers
-        </td>
-        <td>1974
-        </td>
-        <td>17
-        </td>
-        <td>No More Heroes
-        </td>
+        <td>The Stranglers</td>
+        <td>1974</td>
+        <td>17</td>
+        <td>No More Heroes</td>
       </tr>
     </tbody>
-
+    <!--Table Footer-->
       <tfoot>
         <td colspan="2" class="total-albums">Total Albums
         </td>
@@ -113,12 +93,9 @@
       </tfoot>
       
     </table>
-    <p>A Summary of the UK's Most Famous Punk Bands</p>
- 
+    <!--Table Descriptor-->
+    <p class="table-descriptor">A Summary of the UK's Most Famous Punk Bands</p>
 
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js"></script>
+  </main>
   </body>
 </html>

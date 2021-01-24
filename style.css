@@ -4,7 +4,16 @@ body {
   margin: 5px;
 }
 
+h1 {
+  font-family: 'Rock Salt', cursive;
+  font-size: 2rem;
+}
+
 p {
+  font-family: 'Lato', sans-serif;
+}
+
+.table-descriptor {
   text-align: right;
   font-family: 'Rock Salt', cursive;
 }
